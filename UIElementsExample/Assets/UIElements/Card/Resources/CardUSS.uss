@@ -1,0 +1,23 @@
+
+.card__life-container {
+	padding: 8px;
+}
+
+.card__life-container__text {
+	flex: 0 0 80px;
+}
+
+.card__life-container__life-bar {
+	flex: 1 0 auto;
+	flex-direction: row;
+	background-color: #dddddd;
+	margin: 2px;
+}
+
+.card__life-container__life-bar__filler {
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: #66dd44;
+
+	transition: all 0.5s ease-in-out;
+}

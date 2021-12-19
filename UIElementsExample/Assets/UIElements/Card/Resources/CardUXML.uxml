@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIElements/Card/Resources/CardUSS.uss?fileID=7433441132597879392&amp;guid=4b86bfa90b01de542979cf1df2955baa&amp;type=3#CardUSS" />
+    <ui:VisualElement class="card__life-container" style="flex-direction: row;">
+        <ui:Label text="Life" display-tooltip-when-elided="true" class="card__life-container__text" />
+        <ui:VisualElement name="life-bar-container" class="card__life-container__life-bar">
+            <ui:VisualElement name="life-bar-filler" class="card__life-container__life-bar__filler" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
